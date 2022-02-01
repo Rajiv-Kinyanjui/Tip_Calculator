@@ -2,5 +2,20 @@ print("We hope you have enjoyed our food and the service. Kindly enter your tota
 
 bill = int(input())
 
-total = 0.15 * bill
-print (total)
+print("Kindly tell us whether the service was good or great or terrible")
+
+
+service = input()
+
+if service == "good":
+    tip = 0.15 * bill
+    total = bill + tip
+    print(total)
+
+elif service == great":
+    tip = 0.2 * bill
+    total = bill + tip
+    print(total)
+
+else:
+    print(bill)
