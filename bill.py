@@ -12,7 +12,7 @@ if service == "good":
     total = bill + tip
     print(total)
 
-elif service == great":
+elif service == "great":
     tip = 0.2 * bill
     total = bill + tip
     print(total)
